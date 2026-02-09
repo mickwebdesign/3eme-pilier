@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /mentions-legales.html
+Disallow: /politique-de-confidentialite.html
+
+Sitemap: https://www.calculateur-3eme-pilier.ch/sitemap.xml

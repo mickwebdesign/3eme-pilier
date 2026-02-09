@@ -5,9 +5,9 @@
 <p class="text-blue uppercase tracking-widest text-sm font-semibold mb-6">Simulateur Gratuit &mdash; R&eacute;sultats en 30 secondes</p>
 <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-navy-dark">Simulateur 3&egrave;me Pilier Suisse 2026</h1>
 <p class="text-lg md:text-xl leading-relaxed mb-10 max-w-2xl mx-auto" style="color:var(--anthracite)">Vous laissez <strong class="text-navy-dark">jusqu'&agrave; 2'500&nbsp;CHF par an</strong> sur la table si vous ne cotisez pas &agrave; votre 3&egrave;me pilier. D&eacute;couvrez combien vous pouvez <strong class="text-navy-dark">d&eacute;duire de vos imp&ocirc;ts</strong> et quel <strong class="text-navy-dark">capital retraite</strong> vous constituerez d'ici vos 65 ans.</p>
-<a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-cta text-lg px-10 py-4 rounded-lg mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> OBTENIR MON PLAN D'OPTIMISATION FISCALE &rarr;</a>
-<p class="text-gray-400 text-sm mt-4">D&eacute;j&agrave; plus de 1'200 r&eacute;sidents accompagn&eacute;s cette ann&eacute;e. 100% confidentiel.</p>
-<a href="#simulateur" class="inline-block text-navy font-semibold text-sm mt-4 underline underline-offset-4">Ou testez le simulateur gratuit &darr;</a>
+<a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-cta text-lg px-10 py-4 rounded-lg mx-auto">OBTENIR MON PLAN D'OPTIMISATION FISCALE</a>
+<p class="text-gray-400 text-sm mt-4">D&eacute;j&agrave; plus de 500 r&eacute;sidents accompagn&eacute;s cette ann&eacute;e. 100% confidentiel.</p>
+<a href="#simulateur" class="inline-block text-navy font-semibold text-sm mt-4 underline underline-offset-4">Ou testez le simulateur gratuit</a>
 </div>
 </header>
 <section class="py-20 px-6 bg-white" id="simulateur">
@@ -23,6 +23,7 @@
 <input type="range" id="revenu" min="40000" max="250000" step="5000" value="100000" class="w-full">
 <div class="flex justify-between items-center mt-2"><span class="text-sm text-gray-400">40'000</span><span class="text-2xl font-bold text-navy" id="revenu-display">100'000 CHF</span><span class="text-sm text-gray-400">250'000</span></div>
 </div>
+<div class="grid md:grid-cols-2 gap-6">
 <div>
 <label for="canton" class="block text-lg font-semibold text-navy-dark mb-2">Canton de r&eacute;sidence</label>
 <select id="canton" class="w-full p-4 rounded-xl border-2 text-lg font-semibold appearance-none pr-12 bg-white focus:outline-none" style="border-color:var(--navy);color:var(--navy-dark)">
@@ -42,6 +43,14 @@
 <option value="SO">Soleure (SO)</option>
 <option value="BL">B&acirc;le-Campagne (BL)</option>
 </select>
+</div>
+<div>
+<label for="etat-civil" class="block text-lg font-semibold text-navy-dark mb-2">&Eacute;tat civil</label>
+<select id="etat-civil" class="w-full p-4 rounded-xl border-2 text-lg font-semibold appearance-none pr-12 bg-white focus:outline-none" style="border-color:var(--navy);color:var(--navy-dark)">
+<option value="celibataire">C&eacute;libataire</option>
+<option value="marie">Mari&eacute;(e)</option>
+</select>
+</div>
 </div>
 <div>
 <label for="age" class="block text-lg font-semibold text-navy-dark mb-2">&Acirc;ge actuel</label>
@@ -72,8 +81,8 @@
 </div>
 </div>
 <div class="text-center">
-<a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-cta text-lg px-10 py-4 rounded-lg mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> OBTENIR MON PLAN D'OPTIMISATION PERSONNALIS&Eacute; &rarr;</a>
-<p class="text-gray-400 text-sm mt-4">D&eacute;j&agrave; plus de 1'200 r&eacute;sidents accompagn&eacute;s en 2026. 100% confidentiel.</p>
+<a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-cta text-lg px-10 py-4 rounded-lg mx-auto">OBTENIR MON PLAN D'OPTIMISATION PERSONNALIS&Eacute;</a>
+<p class="text-gray-400 text-sm mt-4">D&eacute;j&agrave; plus de 500 r&eacute;sidents accompagn&eacute;s en 2026. 100% confidentiel.</p>
 </div>
 </div>
 <p class="text-center text-gray-400 text-xs mt-6">Simulation indicative bas&eacute;e sur le plafond 3a 2026 de 7'258&nbsp;CHF et un rendement annuel moyen de 3%. Les taux d'imposition sont des estimations moyennes par canton.</p>
@@ -155,7 +164,7 @@
 </div>
 <div class="bg-white border-2 rounded-2xl p-8 text-center" style="border-color:var(--navy)">
 <p class="text-lg mb-4" style="color:var(--anthracite)"><strong class="text-navy-dark">Notre recommandation :</strong> pour les familles et les salari&eacute;s souhaitant <strong class="text-navy-dark">s&eacute;curiser leur pr&eacute;voyance</strong>, le 3&egrave;me pilier assurance offre la meilleure combinaison protection + avantage fiscal. La d&eacute;duction est identique, mais la couverture est incomparable.</p>
-<a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-secondary text-lg px-10 py-4 rounded-lg mx-auto">Comparer les offres 3a assurance &rarr;</a>
+<a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-secondary text-lg px-10 py-4 rounded-lg mx-auto">Comparer les offres 3a assurance</a>
 </div>
 </div>
 </section>
@@ -191,8 +200,8 @@
 <div class="max-w-2xl mx-auto">
 <h2 class="text-3xl md:text-4xl font-bold mb-6 text-navy-dark">Chaque ann&eacute;e sans 3&egrave;me pilier est une ann&eacute;e d'imp&ocirc;ts pay&eacute;s en trop</h2>
 <p class="text-lg mb-10" style="color:var(--anthracite)">Comparez les meilleures offres de 3&egrave;me pilier assurance en 2 minutes. D&eacute;couvrez combien vous pouvez d&eacute;duire et quel capital vous constituerez. <strong class="text-navy-dark">Gratuit, confidentiel, sans engagement.</strong></p>
-<a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-cta text-xl px-12 py-5 rounded-lg mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> OBTENIR MON PLAN D'OPTIMISATION FISCALE &rarr;</a>
-<p class="text-gray-400 text-sm mt-4">D&eacute;j&agrave; plus de 1'200 r&eacute;sidents accompagn&eacute;s cette ann&eacute;e. 100% confidentiel.</p>
+<a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-cta text-xl px-12 py-5 rounded-lg mx-auto">OBTENIR MON PLAN D'OPTIMISATION FISCALE</a>
+<p class="text-gray-400 text-sm mt-4">D&eacute;j&agrave; plus de 500 r&eacute;sidents accompagn&eacute;s cette ann&eacute;e. 100% confidentiel.</p>
 </div>
 </section>
 <section class="py-20 px-6" style="background:var(--light-bg)">
@@ -213,7 +222,7 @@
 <h3 class="text-xl font-bold text-navy-dark mt-8 mb-3">D&eacute;duction fiscale 3&egrave;me pilier : comment &ccedil;a marche concr&egrave;tement ?</h3>
 <p>Chaque cotisation vers&eacute;e dans votre pilier 3a est <strong class="text-navy-dark">soustraite de votre revenu imposable</strong> dans votre d&eacute;claration d'imp&ocirc;ts. La d&eacute;duction s'applique au niveau f&eacute;d&eacute;ral, cantonal et communal. Il suffit de joindre l'attestation de votre banque ou assureur &agrave; votre d&eacute;claration. Le versement doit &ecirc;tre effectu&eacute; avant le 31&nbsp;d&eacute;cembre de l'ann&eacute;e fiscale concern&eacute;e. Ne pas cotiser, c'est litt&eacute;ralement offrir entre 1'800 et 2'600&nbsp;CHF au fisc chaque ann&eacute;e.</p>
 <p class="mt-6"><strong class="text-navy-dark">En r&eacute;sum&eacute; :</strong> le <strong class="text-navy-dark">simulateur 3&egrave;me pilier</strong> de cette page vous permet de calculer votre &eacute;conomie d'imp&ocirc;ts par canton, de projeter votre capital retraite gr&acirc;ce aux int&eacute;r&ecirc;ts compos&eacute;s, et de comparer les solutions bancaires et assurance. Que vous soyez nouvel arrivant, jeune actif ou proche de la retraite, <strong class="text-navy-dark">optimiser votre 3&egrave;me pilier est la d&eacute;cision financi&egrave;re la plus rentable</strong> que vous puissiez prendre en Suisse. .</p>
-<div class="text-center mt-10"><a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-cta text-lg px-10 py-4 rounded-lg mx-auto">Obtenir mon plan d'optimisation personnalis&eacute; &rarr;</a></div>
+<div class="text-center mt-10"><a href="https://www.go.leplaanb.ch/3eme-pilier" class="btn-cta text-lg px-10 py-4 rounded-lg mx-auto">Obtenir mon plan d'optimisation personnalis&eacute;</a></div>
 </div>
 </div>
 </section>
@@ -227,13 +236,14 @@
 var PLAFOND=7258,REND=0.03;
 var TAUX={GE:.355,VD:.33,VS:.275,FR:.30,NE:.335,JU:.33,ZH:.295,BE:.32,LU:.25,BS:.34,TI:.315,AG:.27,SG:.28,SO:.30,BL:.32};
 var LABELS={GE:'genevois',VD:'vaudois',VS:'valaisans',FR:'fribourgeois',NE:'neuch\u00e2telois',JU:'jurassiens',ZH:'zurichois',BE:'bernois',LU:'lucernois',BS:'b\u00e2lois',TI:'tessinois',AG:'argoviens',SG:'saint-gallois',SO:'soleurois',BL:'b\u00e2lois'};
-var sR=document.getElementById('revenu'),sA=document.getElementById('age'),sC=document.getElementById('canton');
+var sR=document.getElementById('revenu'),sA=document.getElementById('age'),sC=document.getElementById('canton'),sE=document.getElementById('etat-civil');
 var dR=document.getElementById('revenu-display'),dA=document.getElementById('age-display');
 function fmt(n){return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g,"'")+" CHF";}
 function calc(){
-var rev=parseInt(sR.value),age=parseInt(sA.value),ct=sC.value;
+var rev=parseInt(sR.value),age=parseInt(sA.value),ct=sC.value,ec=sE.value;
 var taux=TAUX[ct]||.30;
 if(rev>180000)taux*=1.12;else if(rev>120000)taux*=1.07;else if(rev<75000)taux*=0.88;
+if(ec==='marie')taux*=0.85;
 var eco=Math.round(PLAFOND*taux);
 var ans=Math.max(0,65-age);
 var cap=ans>0?Math.round(PLAFOND*((Math.pow(1+REND,ans)-1)/REND)):0;
@@ -251,6 +261,7 @@ document.getElementById('result-total-verse').textContent=fmt(totalVerse);
 sR.addEventListener('input',calc);
 sA.addEventListener('input',calc);
 sC.addEventListener('change',calc);
+sE.addEventListener('change',calc);
 calc();
 })();
 </script>
