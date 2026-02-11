@@ -2,26 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.calculateur-3eme-pilier.ch/</loc>
-    <lastmod>2026-02-09</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.calculateur-3eme-pilier.ch/rachat-retroactif-3eme-pilier-2026.html</loc>
-    <lastmod>2026-02-09</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.calculateur-3eme-pilier.ch/rachat-retroactif-3eme-pilier-2026/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.calculateur-3eme-pilier.ch/3eme-pilier-achat-immobilier.html</loc>
-    <lastmod>2026-02-09</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.calculateur-3eme-pilier.ch/3eme-pilier-achat-immobilier/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.calculateur-3eme-pilier.ch/3eme-pilier-banque-ou-assurance.html</loc>
-    <lastmod>2026-02-09</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.calculateur-3eme-pilier.ch/3eme-pilier-banque-ou-assurance/</loc>
     <priority>0.8</priority>
   </url>
 </urlset>
