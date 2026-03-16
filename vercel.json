@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/rachat-retroactif-3eme-pilier-2026/",
+      "destination": "/rachat-3eme-pilier/",
+      "permanent": true
+    },
+    {
+      "source": "/rachat-retroactif-3eme-pilier-2026",
+      "destination": "/rachat-3eme-pilier/",
+      "permanent": true
+    },
+    {
+      "source": "/rachat-3eme-pilier-2025/",
+      "destination": "/rachat-3eme-pilier/",
+      "permanent": true
+    },
+    {
+      "source": "/rachat-3eme-pilier-2025",
+      "destination": "/rachat-3eme-pilier/",
+      "permanent": true
+    }
+  ]
+}
